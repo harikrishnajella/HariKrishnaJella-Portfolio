@@ -1,0 +1,93 @@
+/*mobile-css*/
+.link{
+    text-decoration: none;
+}
+
+.bg-navbar-container{
+    background-color: #66c1f2;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-title-heading{
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.navbar-mobile-hamburger-btn{
+    margin-right: 5px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.navbar-mobile-hamburger{
+    height: 30px;
+    width: 30px;
+    color: #ffffff;
+}
+
+.navbar-mobile-icons-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+    background-color: #5a7184;
+}
+
+.navbar-mobile-icon-btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 10px;
+}
+
+.navbar-desktop-icons-ul{
+    display: none;
+}
+
+/*desktop-css*/
+@media screen and (min-width: 768px) {
+    .navbar-container{
+        width: 90%;
+        margin: auto;
+    }
+    .navbar-title-heading{
+        font-size: 24px;
+        font-weight: 550;
+    }
+    .navbar-mobile-hamburger-btn{
+        display: none;
+    }
+    .navbar-mobile-icons-ul{
+        display: none;
+    }
+    .navbar-desktop-icons-ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        min-width: 280px;
+    }
+    .navbar-mobile-icon-btn{
+        font-size: 18px;
+        font-weight: 550;
+    }
+}

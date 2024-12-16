@@ -1,0 +1,77 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 90vh;
+}
+
+@media screen and (min-width: 768px) {
+    .home-container{
+        flex-direction: row;
+        width: 90%;
+        margin: auto;
+    }
+}
+
+.home-website-developer-img{
+    width: 300px;
+    height: 300px;
+}
+
+.home-iam-details-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 230px;
+}
+
+@media screen and (min-width: 768px) {
+    .home-website-developer-img{
+       order: 1;
+    }
+}
+
+.home-iam-heading{
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #5a7184;
+    text-align: center;
+}
+
+.home-iam-span-heading{
+    color: #66c1f2;
+}
+
+.home-title-heading{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #5a7184;
+    text-align: center;
+    line-height: 1.5;
+}
+.home-aboutme-btn{
+    height: 35px;
+    width: 120px;
+    border-radius: 30px;
+    padding: 5px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    text-align: center;
+    background-color: #66c1f2;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .home-iam-heading{
+        font-size: 32px;
+    }
+    .home-title-heading{
+        font-size: 18px;
+        line-height: 2;
+    }
+}

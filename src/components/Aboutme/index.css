@@ -1,0 +1,270 @@
+.aboutme-container{
+    background-color: #ffffff;
+}
+
+/*aboutme-details-section*/
+.aboutme-details-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px){
+    .aboutme-details-card{
+        flex-direction: row;
+        justify-content: space-around;
+        width: 90%;
+        margin: auto;
+    }
+}
+
+.aboutme-image-resume-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutme-image{
+    height: 400px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.aboutme-resume-btn{
+    height: 35px;
+    width: 180px;
+    border-width: 0;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #ffffff;
+    background-color: #66c1f2;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutme-resume-icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+}
+
+.aboutme-know-aboutme-card{
+   margin-top: 20px;
+}
+
+.aboutme-know-aboutme-heading{
+    font-size: 26px;
+    font-family: sans-serif;
+    color: #66c1f2;
+    text-align: center;
+}
+
+.aboutme-know-aboutme-description{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #5a7184;
+    text-align: center;
+    line-height: 1.5;
+}
+
+@media screen and (min-width: 768px){
+    .aboutme-image-resume-card{
+        margin-right: 20px;
+    }
+    .aboutme-know-aboutme-card{
+        width: 700px;
+        align-self: flex-start;
+    }
+    .aboutme-know-aboutme-heading{
+        font-size: 32px;
+        text-align: start;
+    }
+    
+    .aboutme-know-aboutme-description{
+        font-size: 18px;
+        text-align: start;
+        line-height: 1.8;
+    }
+}
+
+/*technical-Skills-section*/
+.aboutme-techincal-skill-heading{
+    color: #66c1f2;
+    font-family: sans-serif;
+    font-size: 26px;
+    text-align: center;
+}
+
+.aboutme-technical-skillslist-card{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.aboutme-technical-skill-li{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    width: 160px;
+    height: 160px;
+    box-shadow: 0px 0px 3px 3px #f1f1f1;
+}
+
+.aboutme-technical-skill-img{
+    width: 70px;
+    height: 70px;
+}
+
+.aboutme-technical-skill-title{
+    color: #5a7184;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px){
+    .aboutme-techincal-skills-card{
+        width: 90%;
+        margin: auto;
+    }
+    .aboutme-techincal-skill-heading{
+        font-size: 32px;
+    }
+}
+
+/*My Services Section*/
+.aboutme-myservices-heading{
+    color: #66c1f2;
+    font-family: sans-serif;
+    font-size: 26px;
+    text-align: center;
+}
+
+.aboutme-myservices-ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.aboutme-myservice-li{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 3px 3px #f1f1f1;
+}
+
+.aboutme-myservice-li-heading{
+    color: #66c1f2;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.aboutme-myservice-li-description{
+    color: #5a7184;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+    .aboutme-myservices-card{
+        width: 90%;
+        margin: auto;
+    }
+    .aboutme-myservices-heading{
+        font-size: 32px;
+    }
+    .aboutme-myservice-li{
+        width: 330px;
+        height: 330px;
+    }
+    .aboutme-myservice-li-heading{
+        font-size: 22px;
+    }
+    .aboutme-myservice-li-description{
+        font-size: 18px;
+    }
+}
+
+/*certificates-section*/
+.aboutme-certificate-heading{
+    color: #66c1f2;
+    font-family: sans-serif;
+    font-size: 26px;
+    text-align: center;
+}
+
+.aboutme-certificates-list-card{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.aboutme-certificate-li{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 3px 3px #f1f1f1;
+}
+
+.aboutme-certificate-img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 350px;
+}
+
+.aboutme-certificate-title-btn{
+    color: #5a7184;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.aboutme-certificate-view-icon{
+    height: 12px;
+    width: 12px;
+    margin-left: 8px;
+    color: #66c1f2;
+}
+
+@media screen and (min-width: 768px) {
+    .aboutme-certificates-card{
+        width: 90%;
+        margin: auto;
+    }
+    .aboutme-certificate-heading{
+        font-size: 32px;
+    }
+}

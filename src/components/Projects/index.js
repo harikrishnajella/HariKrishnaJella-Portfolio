@@ -461,7 +461,7 @@ class Projects extends Component{
 
     render() {
         return (
-            <>
+            <div className='bg-projects-container'>
             <Header />
             <div className='projects-card'>
                 <h1 className='projects-heading'>Projects</h1>
@@ -474,7 +474,7 @@ class Projects extends Component{
                 {this.renderProjectsList()}
             </div>
             <Footer/>
-            </>
+            </div>
         )
     }
 }

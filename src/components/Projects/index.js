@@ -442,12 +442,12 @@ class Projects extends Component{
                 <img src={eachProject.imgUrl} alt={eachProject.title} className="project-list-li-img" />
                 <p className='project-list-li-title-heading'>{eachProject.title}</p>
                 <div className='project-list-li-hosted-github-card'>
-                    <Link to={eachProject.imgLink} target='_blank' className='link'>
+                    <Link to={eachProject.hostedLink} target='_blank' className='link'>
                         <button className="project-list-li-btn"> Hosted
                         <FaArrowUpRightFromSquare className="project-list-li-view-icon" />
                         </button>
                     </Link>
-                    <Link to={eachProject.imgLink} target='_blank' className='link'>
+                    <Link to={eachProject.gitHubLink} target='_blank' className='link'>
                         <button className="project-list-li-btn"> Github
                         <FaArrowUpRightFromSquare className="project-list-li-view-icon" />
                         </button>

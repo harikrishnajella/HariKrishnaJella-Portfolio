@@ -1,5 +1,6 @@
 .bg-projects-container{
     height: 100vh;
+    overflow: auto;
 }
 .projects-card{
     display: flex;

@@ -461,7 +461,7 @@ class Projects extends Component{
 
     render() {
         return (
-            <div className='bg-projects-container'>
+            <div>
             <Header />
             <div className='projects-card'>
                 <h1 className='projects-heading'>Projects</h1>

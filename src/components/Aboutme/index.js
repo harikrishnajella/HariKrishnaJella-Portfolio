@@ -224,7 +224,7 @@ class Aboutme extends Component{
 
     render(){
         return(
-            <div className='bg-aboutme-container'>
+            <div>
             <Header/>
             <div className='aboutme-container'>
                 {this.renderAboutmeDetailsCard()}

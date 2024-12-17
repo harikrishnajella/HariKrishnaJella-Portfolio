@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     height: 80vh;
-    overflow: auto;
 }
 
 .projects-heading{

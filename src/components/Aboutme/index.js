@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import { MdOutlineDownloadForOffline } from "react-icons/md"
 import { FaArrowUpRightFromSquare } from "react-icons/fa6"
 
-import resume from '../../assets/Harikrishnaresume.pdf'
+import resume from '../../assets/HariKrishnaJellaResume.pdf'
 
 import Header from '../Header'
 import Footer from '../Footer'

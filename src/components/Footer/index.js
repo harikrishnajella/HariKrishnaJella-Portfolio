@@ -32,8 +32,8 @@ const Footer = () => (
             </ul>
             <p className="footer-contactme-on-heading">Contact Me</p>
             <div className="footer-social-media-icons-card">
-                <Link to='https://github.com/jellaharikrishna/' target="_blank" className="link"><FaGithub className="footer-social-media-icon" /></Link>
-                <Link to='https://www.linkedin.com/in/hari-krishna-jella-211067246/' target="_blank" className="link"><FaLinkedinIn className="footer-social-media-icon" /></Link>
+                <Link to='https://github.com/harikrishnajella' target="_blank" className="link"><FaGithub className="footer-social-media-icon" /></Link>
+                <Link to='https://www.linkedin.com/in/harikrishnajella' target="_blank" className="link"><FaLinkedinIn className="footer-social-media-icon" /></Link>
                 <Link to='https://api.whatsapp.com/send?phone=+919951355903&text=Hello,%20Hari%20Krishna!' target="_blank" className="link"><FaWhatsapp className="footer-social-media-icon" /></Link>
                 <Link to='https://www.instagram.com/' target="_blank" className="link"><FaInstagram className="footer-social-media-icon" /></Link>
                 <Link to='https://mail.google.com/mail/u/0/?to=jellaharikrishna2@gmail.com&fs=1&tf=cm' target="_blank" className="link"><SiGmail className="footer-social-media-icon" /></Link>
